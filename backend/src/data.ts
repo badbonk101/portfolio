@@ -11,8 +11,6 @@ export const portfolioData: PortfolioData = {
     { label: "About", href: "#about", active: false },
     { label: "Skills", href: "#skills", active: false },
     { label: "Projects", href: "#projects", active: false },
-    { label: "Experience", href: "#experience", active: false },
-    { label: "Contact", href: "#contact", active: false },
   ],
   headerCta: { label: "Download CV", icon: "⬇", href: "#" },
   hero: {
