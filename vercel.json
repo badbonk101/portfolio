@@ -1,5 +1,20 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/src/index.ts",
+      "use": "@vercel/node",
+      "config": { "includeFiles": "backend/public/**" }
+    },
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "backend/src/index.ts" },
+    { "src": "/images/(.*)", "dest": "backend/src/index.ts" },
+    { "src": "/(.*)", "dest": "frontend/$1" }
   ]
 }
