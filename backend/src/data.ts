@@ -27,9 +27,7 @@ export const portfolioData: PortfolioData = {
     primaryCta: { label: "View My Work", icon: "→", href: "#projects" },
     secondaryCta: { label: "Contact Me", icon: "✉", href: "#contact" },
     socials: [
-      { icon: "GH", label: "GitHub", href: "#" },
-      { icon: "in", label: "LinkedIn", href: "#" },
-      { icon: "FB", label: "Facebook", href: "#" },
+
     ],
     avatarInitials: "KS",
     avatarImageUrl: "/images/avatar.png",
@@ -47,8 +45,8 @@ export const portfolioData: PortfolioData = {
     ],
     stats: [
       { icon: "💼", number: "2+", label: "Years Experience" },
-      { icon: "🗂️", number: "15+", label: "Projects Completed" },
-      { icon: "🧩", number: "5+", label: "Technologies Mastered" },
+      { icon: "🗂️", number: "5+", label: "Projects Completed" },
+      { icon: "🧩", number: "3+", label: "Technologies Mastered" },
       { icon: "🎯", number: "100%", label: "Commitment" },
     ],
   },
