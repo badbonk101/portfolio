@@ -32,7 +32,7 @@ export const portfolioData: PortfolioData = {
       { icon: "FB", label: "Facebook", href: "#" },
     ],
     avatarInitials: "KS",
-    avatarImageUrl: "/images/hero-avatar.svg",
+    avatarImageUrl: "/images/avatar.png",
     floatingBadges: ["</>", "{ }", ">_"],
   },
   about: {
